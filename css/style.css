@@ -1,0 +1,368 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+.header__logo {
+  flex: 1;
+}
+.navbar__collection {
+  display: flex;
+  margin-right: 50px;
+  gap: 28px;
+}
+.navbar__collection:hover {
+  text-decoration: underline;
+}
+.header__btns {
+  display: flex;
+  gap: 20px;
+}
+.header__btns :nth-child(2) {
+  display: flex;
+  gap: 7px;
+}
+.btn__nav {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+  background-color: #575445;
+  color: #fff;
+  border: none;
+}
+/* Hero section */
+.hero {
+  height: 850px;
+  width: 100%;
+  background: url("../assets/hero\ \(2\).png") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-content {
+  color: white;
+  text-align: left;
+  max-width: 600px;
+}
+.hero-content strong {
+  color: #e6b939;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.hero-content h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0;
+}
+.hero-content p {
+  color: #caccd1;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+}
+.aboutus__wrapper {
+  display: flex;
+  margin-top: 100px;
+  gap: 30px;
+}
+.aboutus__image {
+  width: 50%;
+  margin-bottom: 100px;
+}
+.aboutus__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #575445;
+}
+.our__promise {
+  background-color: #e1e1e1;
+  margin-bottom: 100px;
+}
+.main__title__promise {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+  gap: 16px;
+
+}
+.main__title__promise p {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 583px;
+  margin: 0 auto;
+
+}
+.card__promise {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 388px;
+  height: 275px;
+  align-items: center;
+  padding: 20px 18px 26px 16px;
+}
+.card h3 {
+  color: #575445;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #575445;
+  text-align: center;
+  width: 290px;
+}
+.card img {
+  width: 64px;
+  height: 64px;
+}
+.family__main__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.family__main__title p{
+    text-align: center;
+    width: 538px;
+}
+.card__family{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+.categories{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.sea__page {
+  width: 100%;
+  height: 600px;
+  background-image: url('/assets/seaimg.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  position: relative;
+}
+.wrapper__sea{
+  display: flex;
+  width: 616px;
+  height: 48px;
+  border: none;
+  border-radius: 20px;
+  background-color: #292C32;
+  padding: 5px 22px;
+  gap: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  
+  
+}
+.card__sea{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.card__sea span{
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+}
+.shop__part{
+  width: 100%;
+  height: 392px;
+  background-image: url('/assets/shop.svg');
+  background-color: #375c58;
+  margin-bottom: 100px;
+}
+.shop__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.shop__content button{
+  padding: 16px 28px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #96948b;
+  font-size: 18px;
+  font-family: 600;
+}
+.shop__content strong{
+   color: #98abaa;
+   margin-top: 100px;
+   font-size: 18px;
+}
+.shop__content h2{
+   color: #e6b939;
+}
+.shop__content p{
+   color: #98abaa;
+   text-align: center;
+   font-weight: 600;
+   width: 592px;
+}
+.guide__cart{
+  display: flex;
+  gap: 32px;
+}
+.guide__content strong{
+  font-size: 14px;
+  font-weight: 400;
+}
+.guide__content h2{
+  margin-bottom: 8px  ;
+}
+.guide__content p{
+  width: 536px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.guide__cart h2{
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #575445;
+  width: 464px;
+}
+.guide__wrapper{
+  width: 568px;
+  height: 448px;
+}
+.account{
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+.account img{
+  margin-right: 8px;
+}
+.account p{
+   flex: 1;
+}
+.categories__guide{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 490px;
+  margin-bottom: 200px;
+}
+footer{
+  background-color: #575445;
+  width: 100%;
+  height: 568px;
+}
+.footer__content{
+  display: flex;
+  gap: 100px;
+}
+.logo__footer{
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 76px;
+}
+.footer__collection{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pages h2{
+  color: #e6b939;
+  font-size: 16px;
+  font-weight:400 ;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.pages li > a{
+   color: #fff;
+}
+.pages p{
+  color: #fff;
+  font-size: 14px ;
+  font-weight: 400;
+}
+form input{
+  width: 458px;
+  height: 53px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f9fafb;
+  padding: 10px 100px 10px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+
+}
+form button{
+ position: absolute;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #575445;
+  border: none;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+} 
+.ending__line{
+  display: flex;
+  padding: 20px 30px;
+
+}
+.ending__line p{
+  color: #fff;
+  flex: 1;
+}
+.media__icon{
+  display: flex;
+  gap: 20px;
+}
+
+
+
+
