@@ -208,7 +208,7 @@ a {
 .shop__part{
   width: 100%;
   height: 392px;
-  background-image: url('/assets/shop.svg');
+  background-image: url("../assets/shop.svg");
   background-color: #375c58;
   margin-bottom: 100px;
 }
