@@ -173,7 +173,7 @@ a {
 .sea__page {
   width: 100%;
   height: 600px;
-  background-image: url('/assets/seaimg.png');
+  background-image: url('../assets/seaimg.png');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
